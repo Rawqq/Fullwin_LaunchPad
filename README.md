@@ -1,4 +1,4 @@
-# Welcome to your FULLWIN landing project
+# Welcome to  FULLWIN landing project
 
 ## Project info
 
