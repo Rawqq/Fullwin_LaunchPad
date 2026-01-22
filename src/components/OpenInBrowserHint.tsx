@@ -76,7 +76,7 @@ export default function OpenInBrowserHint({ language = "ru" }: Props) {
         {/* Линия стрелки: старт чуть ниже уведомления → конец в правый верхний угол */}
         <path
           d="M78 22 C86 18, 92 14, 96 8"
-          stroke="red"
+          stroke="green"
           strokeWidth="#22c55e"
           fill="none"
           markerEnd="url(#arrowHead)"
