@@ -2,6 +2,8 @@ import { useState } from "react";
 import { SpaceBackground } from "@/components/SpaceBackground";
 import { AstronautBear } from "@/components/AstronautBear";
 import { TonBadge } from "@/components/TonBadge";
+import OpenInBrowserHint from "@/components/OpenInBrowserHint";
+
 
 const TELEGRAM_LINK = "https://t.me/fullwin_official_bot/FULLWIN?startapp=FULLWIN1";
 
@@ -42,6 +44,8 @@ const Index = () => {
     <div className="relative h-full min-h-screen w-full flex items-center justify-center overflow-hidden">
       {/* Space background with ring outlines */}
       <SpaceBackground />
+      
+      <OpenInBrowserHint language={lang} />
 
       {/* Language toggle */}
       <div className="absolute top-4 right-4 z-20">
