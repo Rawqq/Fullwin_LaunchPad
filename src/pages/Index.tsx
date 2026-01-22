@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { SpaceBackground } from "@/components/SpaceBackground";
 import { AstronautBear } from "@/components/AstronautBear";
-import { TonBadge } from "@/components/TonBadge";
 import OpenInBrowserHint from "@/components/OpenInBrowserHint";
 
 
@@ -73,17 +72,6 @@ const Index = () => {
           >
             {t.title}
           </h1>
-
-          {/* Get free line with badge */}
-          <div className="opacity-0 animate-fade-in-up animation-delay-300 flex items-center justify-center gap-3">
-            <span
-              className="text-2xl font-semibold"
-              style={{ color: "#ffffff" }}
-            >
-              {t.subtitle}
-            </span>
-            <TonBadge amount="3.00 TON" />
-          </div>
 
           {/* Good luck line */}
           <p
